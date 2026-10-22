@@ -1,0 +1,181 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #10233f;
+  --color-ink-2: #4a5b73;
+  --color-panel: #f4f7fb;
+  --color-line: #dce3ec;
+  --color-accent: #2448c8;
+  --color-accent-soft: #e6ecfc;
+
+  --color-dom-bg: #e3f4ea;
+  --color-dom: #14633f;
+  --color-par-bg: #fdf1d8;
+  --color-par: #7a4b00;
+  --color-bre-bg: #fce4dc;
+  --color-bre: #9a2e0b;
+  --color-sin: #8a97a8;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+
+  --animate-aparecer: aparecer 220ms ease-out both;
+  --animate-entrar: entrar 220ms ease-out both;
+
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes entrar {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@theme inline {
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: 'kern';
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Papel milimetrado: solo para el hero */
+.papel-milimetrado {
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(to right, rgb(36 72 200 / 0.09) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(36 72 200 / 0.09) 1px, transparent 1px),
+    linear-gradient(to right, rgb(36 72 200 / 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(36 72 200 / 0.04) 1px, transparent 1px);
+  background-size:
+    40px 40px,
+    40px 40px,
+    8px 8px,
+    8px 8px;
+  background-position: -1px -1px;
+}
+
+/* Cadena del hero: los nodos se iluminan uno tras otro */
+.hero-cadena {
+  animation: iluminar 220ms ease-out both;
+}
+.hero-cadena-obj {
+  animation: iluminar-obj 220ms ease-out both;
+}
+@keyframes iluminar {
+  from {
+    background: #ffffff;
+    border-color: var(--color-line);
+    color: var(--color-ink-2);
+  }
+  to {
+    background: var(--color-accent-soft);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+}
+@keyframes iluminar-obj {
+  from {
+    background: #ffffff;
+    border-color: var(--color-line);
+    color: var(--color-ink-2);
+  }
+  to {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: #ffffff;
+  }
+}
+
+/* Fórmulas: KaTeX hereda la tinta y no rompe el ancho en móvil */
+.katex {
+  font-size: 1.08em;
+  color: inherit;
+}
+.formula-bloque {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.formula-izq .katex-display {
+  margin: 0.15em 0;
+  text-align: left;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Etiqueta de datos de ejemplo */
+.borde-punteado {
+  border: 1.5px dashed var(--color-sin);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}

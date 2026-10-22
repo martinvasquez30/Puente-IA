@@ -1,0 +1,23 @@
+[
+  {
+    "id": "paes",
+    "cifra": "300.678",
+    "texto": "personas inscritas en la PAES Regular 2026.",
+    "fuente": "DEMRE, citado en prensa",
+    "enlace": "[ENLACE A LA FUENTE]"
+  },
+  {
+    "id": "retencion",
+    "cifra": "82,7%",
+    "texto": "de retención de primer año en universidades (2024). Es decir, el 17,3% no sigue en su institución al segundo año.",
+    "fuente": "SIES, Mineduc, citado en prensa",
+    "enlace": "[ENLACE A LA FUENTE]"
+  },
+  {
+    "id": "calculo",
+    "cifra": "[CIFRA]",
+    "texto": "[DATO PENDIENTE: tasa de aprobación de Cálculo I en primer año de ingeniería, con su fuente institucional].",
+    "fuente": "[FUENTE POR CONFIRMAR]",
+    "enlace": null
+  }
+]

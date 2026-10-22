@@ -1,0 +1,122 @@
+[
+  {
+    "id": "i1",
+    "concepto": "fracciones",
+    "secundarios": [],
+    "enunciado": "Calcula:",
+    "tex": "\\frac{2}{3}+\\frac{1}{4}",
+    "hablado": "dos tercios más un cuarto",
+    "correcta": "a",
+    "alternativas": [
+      { "id": "a", "tex": "\\frac{11}{12}", "hablado": "once doceavos" },
+      { "id": "b", "tex": "\\frac{3}{7}", "hablado": "tres séptimos", "nota": "Sumar numeradores y denominadores por separado es un error frecuente con fracciones." },
+      { "id": "c", "tex": "\\frac{3}{12}", "hablado": "tres doceavos" },
+      { "id": "d", "tex": "\\frac{2}{12}", "hablado": "dos doceavos" }
+    ]
+  },
+  {
+    "id": "i2",
+    "concepto": "potencias",
+    "secundarios": [],
+    "enunciado": "Simplifica:",
+    "tex": "(x^3)^2\\cdot x^{-4}",
+    "hablado": "x al cubo, todo al cuadrado, por x elevado a menos cuatro",
+    "correcta": "a",
+    "alternativas": [
+      { "id": "a", "tex": "x^{2}", "hablado": "x al cuadrado" },
+      { "id": "b", "tex": "x", "hablado": "x", "nota": "Al elevar una potencia se multiplican los exponentes; sumarlos da $x$ en vez de $x^2$." },
+      { "id": "c", "tex": "x^{10}", "hablado": "x a la diez" },
+      { "id": "d", "tex": "x^{-24}", "hablado": "x a la menos veinticuatro" }
+    ]
+  },
+  {
+    "id": "i3",
+    "concepto": "algebra",
+    "secundarios": [],
+    "enunciado": "Reduce la expresión:",
+    "tex": "3(x-2)-2(x-5)",
+    "hablado": "tres por x menos dos, menos dos por x menos cinco",
+    "correcta": "b",
+    "alternativas": [
+      { "id": "a", "tex": "x-16", "hablado": "x menos dieciséis", "nota": "El signo menos delante del paréntesis cambia el signo de todos sus términos: $-2\\cdot(-5)=+10$." },
+      { "id": "b", "tex": "x+4", "hablado": "x más cuatro" },
+      { "id": "c", "tex": "x-1", "hablado": "x menos uno" },
+      { "id": "d", "tex": "5x+4", "hablado": "cinco x más cuatro" }
+    ]
+  },
+  {
+    "id": "i4",
+    "concepto": "factorizacion",
+    "secundarios": ["productos"],
+    "enunciado": "¿Cuál es la factorización de esta expresión?",
+    "tex": "x^2-5x+6",
+    "hablado": "x al cuadrado menos cinco x más seis",
+    "correcta": "c",
+    "alternativas": [
+      { "id": "a", "tex": "(x+2)(x+3)", "hablado": "x más dos, por x más tres", "nota": "Con $(x+2)(x+3)$ el término central queda $+5x$: los signos de los factores no calzan." },
+      { "id": "b", "tex": "(x-1)(x-6)", "hablado": "x menos uno, por x menos seis", "nota": "$(x-1)(x-6)$ da $x^2-7x+6$: el producto calza, pero la suma no." },
+      { "id": "c", "tex": "(x-2)(x-3)", "hablado": "x menos dos, por x menos tres" },
+      { "id": "d", "tex": "x(x-5)+6", "hablado": "x por x menos cinco, más seis", "nota": "$x(x-5)+6$ sigue siendo una suma: todavía no es un producto." }
+    ]
+  },
+  {
+    "id": "i5",
+    "concepto": "ecuaciones",
+    "secundarios": [],
+    "enunciado": "Resuelve la ecuación:",
+    "tex": "x^2=3x",
+    "hablado": "x al cuadrado igual a tres x",
+    "correcta": "b",
+    "alternativas": [
+      { "id": "a", "tex": "x=3", "hablado": "x igual a tres", "credito": 0.5, "nota": "Encontraste $x=3$, pero al dividir por $x$ se pierde la solución $x=0$." },
+      { "id": "b", "tex": "x=0\\ \\text{o}\\ x=3", "hablado": "x igual a cero o x igual a tres" },
+      { "id": "c", "tex": "x=\\pm\\sqrt{3}", "hablado": "x igual a más o menos raíz de tres" },
+      { "id": "d", "tex": "x=0", "hablado": "x igual a cero" }
+    ]
+  },
+  {
+    "id": "i6",
+    "concepto": "fracalg",
+    "secundarios": ["factorizacion", "productos"],
+    "enunciado": "Simplifica, considerando que x ≠ −3:",
+    "tex": "\\frac{x^2-9}{x+3}",
+    "hablado": "x al cuadrado menos nueve, partido por x más tres",
+    "correcta": "a",
+    "alternativas": [
+      { "id": "a", "tex": "x-3", "hablado": "x menos tres" },
+      { "id": "b", "tex": "x^2-3", "hablado": "x al cuadrado menos tres", "nota": "Se simplificaron términos sueltos ($9$ con $3$); solo se pueden simplificar factores." },
+      { "id": "c", "tex": "x+3", "hablado": "x más tres" },
+      { "id": "d", "texto": "No se puede simplificar", "hablado": "No se puede simplificar", "diagnostica": "productos", "nota": "Elegir «No se puede simplificar» suele indicar que todavía no se reconoce $x^2-9$ como $(x-3)(x+3)$." }
+    ]
+  },
+  {
+    "id": "i7",
+    "concepto": "funciones",
+    "secundarios": ["inecuaciones"],
+    "enunciado": "¿Cuál es el dominio de esta función?",
+    "tex": "f(x)=\\sqrt{x-2}",
+    "hablado": "f de x igual a raíz cuadrada de x menos dos",
+    "correcta": "b",
+    "alternativas": [
+      { "id": "a", "tex": "x>2", "hablado": "x mayor que dos", "credito": 0.5, "nota": "Casi: $\\sqrt{0}=0$ existe, así que $x=2$ también pertenece al dominio." },
+      { "id": "b", "tex": "x\\geq 2", "hablado": "x mayor o igual que dos" },
+      { "id": "c", "tex": "x\\geq 0", "hablado": "x mayor o igual que cero" },
+      { "id": "d", "texto": "Todos los números reales", "hablado": "Todos los números reales" }
+    ]
+  },
+  {
+    "id": "i8",
+    "concepto": "limites00",
+    "secundarios": ["fracalg", "factorizacion"],
+    "enunciado": "Calcula el límite:",
+    "tex": "\\lim_{x\\to 2}\\frac{x^2-4}{x-2}",
+    "hablado": "límite cuando x tiende a dos de x al cuadrado menos cuatro, partido por x menos dos",
+    "correcta": "b",
+    "alternativas": [
+      { "id": "a", "tex": "0", "hablado": "cero" },
+      { "id": "b", "tex": "4", "hablado": "cuatro" },
+      { "id": "c", "tex": "2", "hablado": "dos" },
+      { "id": "d", "texto": "No existe, porque da 0/0", "hablado": "No existe, porque da cero partido por cero", "nota": "La forma 0/0 no significa que el límite no exista: indica que hay que simplificar antes de evaluar." }
+    ]
+  }
+]

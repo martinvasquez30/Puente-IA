@@ -1,0 +1,144 @@
+[
+  {
+    "id": "fracciones",
+    "nombre": "Fracciones y proporciones",
+    "corto": "Fracciones",
+    "abrev": "Fracc.",
+    "fila": 0,
+    "x": 0.333,
+    "descripcion": "Sumar, restar, multiplicar y simplificar fracciones numéricas.",
+    "ejemplo": "\\frac{2}{3}+\\frac{1}{4}=\\frac{11}{12}",
+    "ejemploHablado": "dos tercios más un cuarto es igual a once doceavos"
+  },
+  {
+    "id": "potencias",
+    "nombre": "Potencias y raíces",
+    "corto": "Potencias",
+    "abrev": "Poten.",
+    "fila": 0,
+    "x": 0.667,
+    "descripcion": "Propiedades de las potencias con exponente entero y racional; las raíces como potencias.",
+    "ejemplo": "(x^3)^2\\cdot x^{-4}=x^2",
+    "ejemploHablado": "x al cubo, todo al cuadrado, por x elevado a menos cuatro, es igual a x al cuadrado"
+  },
+  {
+    "id": "algebra",
+    "nombre": "Operatoria algebraica",
+    "corto": "Álgebra",
+    "abrev": "Álgebra",
+    "fila": 1,
+    "x": 0.5,
+    "descripcion": "Reducir términos semejantes, eliminar paréntesis y respetar los signos.",
+    "ejemplo": "3(x-2)-2(x-5)=x+4",
+    "ejemploHablado": "tres por x menos dos, menos dos por x menos cinco, es igual a x más cuatro"
+  },
+  {
+    "id": "productos",
+    "nombre": "Productos notables",
+    "corto": "Productos notables",
+    "abrev": "Prod. notab.",
+    "fila": 2,
+    "x": 0.25,
+    "descripcion": "Cuadrado de binomio, suma por diferencia y otros productos que conviene reconocer de un vistazo.",
+    "ejemplo": "(a+b)(a-b)=a^2-b^2",
+    "ejemploHablado": "a más b, por a menos b, es igual a a al cuadrado menos b al cuadrado"
+  },
+  {
+    "id": "ecuaciones",
+    "nombre": "Ecuaciones lineales y cuadráticas",
+    "corto": "Ecuaciones",
+    "abrev": "Ecuac.",
+    "fila": 2,
+    "x": 0.75,
+    "descripcion": "Despejar, resolver ecuaciones cuadráticas y no perder soluciones en el camino.",
+    "ejemplo": "x^2=3x\\;\\Rightarrow\\; x=0\\ \\text{o}\\ x=3",
+    "ejemploHablado": "x al cuadrado igual a tres x, entonces x igual a cero o x igual a tres"
+  },
+  {
+    "id": "factorizacion",
+    "nombre": "Factorización",
+    "corto": "Factorización",
+    "abrev": "Factor.",
+    "fila": 3,
+    "x": 0.25,
+    "descripcion": "Factor común, trinomios y diferencia de cuadrados: escribir una expresión como producto.",
+    "ejemplo": "x^2-5x+6=(x-2)(x-3)",
+    "ejemploHablado": "x al cuadrado menos cinco x más seis es igual a x menos dos, por x menos tres"
+  },
+  {
+    "id": "inecuaciones",
+    "nombre": "Inecuaciones y valor absoluto",
+    "corto": "Inecuaciones",
+    "abrev": "Inecuac.",
+    "fila": 3,
+    "x": 0.75,
+    "descripcion": "Resolver desigualdades e interpretar el valor absoluto como una distancia.",
+    "ejemplo": "|x-1|<2\\iff -1<x<3",
+    "ejemploHablado": "valor absoluto de x menos uno menor que dos, equivale a x entre menos uno y tres"
+  },
+  {
+    "id": "fracalg",
+    "nombre": "Fracciones algebraicas",
+    "corto": "Fracciones algebraicas",
+    "abrev": "Fracc. alg.",
+    "fila": 4,
+    "x": 0.25,
+    "descripcion": "Simplificar y operar fracciones con polinomios, cuidando los valores donde no están definidas.",
+    "ejemplo": "\\frac{x^2-9}{x+3}=x-3,\\quad x\\neq -3",
+    "ejemploHablado": "x al cuadrado menos nueve, partido por x más tres, es igual a x menos tres, con x distinto de menos tres"
+  },
+  {
+    "id": "funciones",
+    "nombre": "Funciones: dominio y recorrido",
+    "corto": "Funciones",
+    "abrev": "Func.",
+    "fila": 4,
+    "x": 0.75,
+    "descripcion": "Leer una función, encontrar su dominio y recorrido y reconocer su gráfico.",
+    "ejemplo": "f(x)=\\sqrt{x-2},\\quad \\operatorname{Dom} f=[2,\\infty)",
+    "ejemploHablado": "f de x igual a raíz de x menos dos; su dominio es desde dos hasta infinito, incluyendo el dos"
+  },
+  {
+    "id": "limites00",
+    "nombre": "Límites con forma 0/0",
+    "corto": "Límites 0/0",
+    "abrev": "Lím. 0/0",
+    "fila": 5,
+    "x": 0.17,
+    "descripcion": "Primer tema de Cálculo I: resolver indeterminaciones simplificando la expresión.",
+    "ejemplo": "\\lim_{x\\to 2}\\frac{x^2-4}{x-2}=4",
+    "ejemploHablado": "el límite cuando x tiende a dos de x al cuadrado menos cuatro, partido por x menos dos, es cuatro"
+  },
+  {
+    "id": "explog",
+    "nombre": "Exponenciales y logaritmos",
+    "corto": "Exp. y logaritmos",
+    "abrev": "Exp. y log.",
+    "fila": 5,
+    "x": 0.5,
+    "descripcion": "Propiedades de los logaritmos, funciones exponenciales y ecuaciones exponenciales.",
+    "ejemplo": "\\log_2 8=3",
+    "ejemploHablado": "logaritmo en base dos de ocho es igual a tres"
+  },
+  {
+    "id": "trigo",
+    "nombre": "Trigonometría",
+    "corto": "Trigonometría",
+    "abrev": "Trig.",
+    "fila": 5,
+    "x": 0.83,
+    "descripcion": "Razones e identidades trigonométricas; seno y coseno como funciones.",
+    "ejemplo": "\\sin^2 x+\\cos^2 x=1",
+    "ejemploHablado": "seno al cuadrado de x más coseno al cuadrado de x es igual a uno"
+  },
+  {
+    "id": "calculo",
+    "nombre": "Cálculo I",
+    "corto": "Cálculo I",
+    "abrev": "Cálc. I",
+    "fila": 6,
+    "x": 0.5,
+    "objetivo": true,
+    "descripcion": "Límites, continuidad y derivadas: el curso al que apunta la nivelación."
+  }
+]

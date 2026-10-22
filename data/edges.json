@@ -1,0 +1,17 @@
+[
+  { "desde": "fracciones", "hacia": "algebra", "razon": "Simplificar expresiones algebraicas usa las mismas reglas que las fracciones numéricas." },
+  { "desde": "potencias", "hacia": "algebra", "razon": "Multiplicar términos algebraicos exige manejar exponentes." },
+  { "desde": "algebra", "hacia": "productos", "razon": "Un producto notable es operatoria algebraica que conviene reconocer de un vistazo." },
+  { "desde": "algebra", "hacia": "ecuaciones", "razon": "Despejar es aplicar operatoria algebraica a ambos lados de la igualdad." },
+  { "desde": "productos", "hacia": "factorizacion", "razon": "Factorizar es leer un producto notable al revés: $x^2-9$ es $(x-3)(x+3)$." },
+  { "desde": "ecuaciones", "hacia": "inecuaciones", "razon": "Una inecuación se resuelve como una ecuación, más el cuidado con el sentido de la desigualdad." },
+  { "desde": "factorizacion", "hacia": "fracalg", "razon": "Para simplificar una fracción algebraica hay que factorizar el numerador y el denominador." },
+  { "desde": "inecuaciones", "hacia": "funciones", "razon": "Encontrar un dominio suele ser resolver una inecuación, como $x-2\\geq 0$." },
+  { "desde": "fracalg", "hacia": "limites00", "razon": "Un límite 0/0 se resuelve simplificando la fracción algebraica que lo produce." },
+  { "desde": "funciones", "hacia": "limites00", "razon": "Un límite describe cómo se comporta una función cerca de un punto." },
+  { "desde": "funciones", "hacia": "explog", "razon": "Exponenciales y logaritmos se estudian como funciones: dominio, recorrido y gráfico." },
+  { "desde": "funciones", "hacia": "trigo", "razon": "En Cálculo, seno y coseno se usan como funciones, no solo como razones de un triángulo." },
+  { "desde": "limites00", "hacia": "calculo", "razon": "La derivada se define con un límite que casi siempre parte en la forma 0/0." },
+  { "desde": "explog", "hacia": "calculo", "razon": "Cálculo I deriva exponenciales y logaritmos y los usa en límites." },
+  { "desde": "trigo", "hacia": "calculo", "razon": "Las derivadas de seno y coseno y los límites trigonométricos son parte de Cálculo I." }
+]
